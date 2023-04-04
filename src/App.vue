@@ -9,6 +9,7 @@
   
     <v-main>
       <HeroView/>
+      <GalleryView/>
     </v-main>
   </v-app>
 </template>
@@ -16,13 +17,15 @@
 <script>
 import HeaderView from './components/HeaderView';
 import HeroView from './components/HeroView';
+import GalleryView from './components/GalleryView';
 
 export default {
   name: 'App',
 
   components: {
     HeaderView,
-    HeroView
+    HeroView,
+    GalleryView
   },
 
   data: () => ({
