@@ -1,6 +1,6 @@
 <template>
-    <v-container>
-        <div class="block galleryBlock">
+    <div class="block galleryBlock">
+        <v-container>
             <h2 class="text-center">Gallery</h2>
             <v-row>
                 <v-col
@@ -29,8 +29,8 @@
                     </v-img>
                 </v-col>
             </v-row>
-        </div>
-    </v-container>
+        </v-container>
+    </div>
 </template>
 
 <script>

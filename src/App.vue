@@ -10,6 +10,7 @@
     <v-main>
       <HeroView/>
       <GalleryView/>
+      <LatestPosts/>
     </v-main>
   </v-app>
 </template>
@@ -18,6 +19,7 @@
 import HeaderView from './components/HeaderView';
 import HeroView from './components/HeroView';
 import GalleryView from './components/GalleryView';
+import LatestPosts from './components/LatestPosts';
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
   components: {
     HeaderView,
     HeroView,
-    GalleryView
+    GalleryView,
+    LatestPosts,
   },
 
   data: () => ({
